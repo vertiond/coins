@@ -234,18 +234,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -540,18 +543,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -937,18 +943,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1045,18 +1054,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1156,18 +1168,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1370,18 +1385,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1481,18 +1499,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1734,18 +1755,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1863,9 +1887,11 @@
                     "time": 1652512363,
                     "hash": "44797f3bb78323a7717007f1e289a3689e0b5b3433385dbd8e6f6a1700000000",
                     "sapling_tree": "01e40c26f4a28071535b95ae637d30a209531e92a33de0a649e51183771025fd0f016cdc51442fcb328d047a709dc0f41e0173953404711045b3ef3036d7fd4151271501d6c94c5ce6787826af809aaee83768c4b7d4f02c8dc2d24cf60ed5f127a5d730018a752ea9d9efb3e1ac0e6e705ac9f7f9863cfa8f612ad43802175338d8d7cc6000000001fc3542434eff03075ea5f0a64f1dfb2f042d281b1a057e9f6c765b533ce51219013ad9484b1e901e62b93e7538f913dcb27695380c3bc579e79f5cc900f28e596e0001431da5f01fe11d58300134caf5ac76e0b1b7486fd02425dd8871bca4afa94d4b01bb39de1c1d10a25ce0cc775bc74b6b0f056c28639e7c5b7651bb8460060085530000000001732ddf661e68c9e335599bb0b18b048d2f1c06b20eabd18239ad2f3cc45fa910014496bab5eedab205b5f2a206bd1db30c5bc8bc0c1914a102f87010f3431be21a0000010b5fd8e7610754075f936463780e85841f3ab8ca2978f9afdf7c2c250f16a75f01db56bc66eb1cd54ec6861e5cf24af2f4a17991556a52ca781007569e95b9842401c03877ecdd98378b321250640a1885604d675aaa50380e49da8cfa6ff7deaf15"
-                }
+                },
+                "z_derivation_path": "m/32'/133'"
             }
         },
+        "derivation_path": "m/44'/133'",
         "required_confirmations": 2,
         "requires_notarization": true,
         "checkpoint_height": 1900000,
@@ -2191,18 +2217,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -2490,18 +2519,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -2676,18 +2708,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -2883,18 +2918,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -3132,18 +3170,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -3342,18 +3383,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -3748,18 +3792,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -3954,6 +4001,60 @@
         "token_address_url": "token/",
         "explorer_block_url": "block/"
     },
+    "BBK": {
+        "coin": "BBK",
+        "type": "UTXO",
+        "name": "BitBlocks",
+        "coinpaprika_id": "bbk-bitblocks",
+        "coingecko_id": "",
+        "livecoinwatch_id": "BBK",
+        "explorer_url": "https://chainz.cryptoid.info/bbk/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "sign_message_prefix": "DarkNet Signed Message:\n",
+        "fname": "BitBlocks",
+        "rpcport": 59768,
+        "pubtype": 25,
+        "p2shtype": 85,
+        "wiftype": 107,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "links": {
+            "github": "https://github.com/BitBlocksProject/BitBlocks",
+            "homepage": "https://bitblocksproject.com"
+        },
+        "electrum": [
+            {
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "bbk-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "BBK-BEP20": {
         "coin": "BBK-BEP20",
         "type": "BEP-20",
@@ -4094,18 +4195,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -4225,6 +4329,7 @@
         "wallet_only": false,
         "fname": "BIDR",
         "rpcport": 80,
+        "chain_id": 56,
         "mm2": 1,
         "avg_blocktime": 3,
         "required_confirmations": 3,
@@ -4565,18 +4670,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -4752,18 +4860,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -4867,18 +4978,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -4976,18 +5090,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -5036,18 +5153,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -5502,6 +5622,166 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "BTE": {
+        "coin": "BTE",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "livecoinwatch_id": "_BTE",
+        "explorer_url": "https://explorer.bitwebcore.net/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Bitweb",
+        "rpcport": 1605,
+        "pubtype": 33,
+        "p2shtype": 30,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "web",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BTE-segwit": {
+        "coin": "BTE-segwit",
+        "type": "UTXO",
+        "name": "Bitweb",
+        "coinpaprika_id": "bte-bitweb",
+        "coingecko_id": "bitweb",
+        "livecoinwatch_id": "_BTE",
+        "explorer_url": "https://explorer.bitwebcore.net/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Bitweb",
+        "rpcport": 1605,
+        "pubtype": 33,
+        "p2shtype": 30,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "web",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "BTE",
+        "txfee": 20000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.bitwebcore.net:20002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "mraksoll@gmail.com"
+                    },
+                    {
+                        "discord": "mraksoll"
+                    },
+                    {
+                        "github": "https://github.com/bitweb-project/electrumx/issues"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BTT-BEP20": {
         "coin": "BTT-BEP20",
         "type": "BEP-20",
@@ -5643,18 +5923,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -6048,18 +6331,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -6206,18 +6492,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -6487,7 +6776,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "miami.ecoincore.com:34333",
+                "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -6542,7 +6831,7 @@
                 "disable_cert_verification": true
             },
             {
-                "url": "miami.ecoincore.com:34333",
+                "url": "lenoir.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -6736,18 +7025,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -6852,18 +7144,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -7173,18 +7468,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -7284,18 +7582,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -7634,18 +7935,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -7789,18 +8093,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8023,18 +8330,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8368,18 +8678,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8610,18 +8923,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8979,18 +9295,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9042,18 +9361,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9102,18 +9424,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9460,18 +9785,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9692,7 +10020,7 @@
         "segwit": false,
         "mm2": 1,
         "mature_confirmations": 75,
-        "required_confirmations": 7,
+        "required_confirmations": 4,
         "avg_blocktime": 75,
         "protocol": {
             "type": "UTXO"
@@ -9947,18 +10275,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -10578,18 +10909,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -10690,18 +11024,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -10826,18 +11163,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11118,18 +11458,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11505,18 +11848,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11616,18 +11962,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11733,18 +12082,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11932,18 +12284,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11992,18 +12347,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -12198,18 +12556,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -12611,18 +12972,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13006,18 +13370,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13115,18 +13482,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13366,18 +13736,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13474,18 +13847,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13797,18 +14173,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14106,18 +14485,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14323,18 +14705,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14538,18 +14923,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14741,18 +15129,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14801,18 +15192,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14866,18 +15260,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14977,18 +15374,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -15132,18 +15532,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -15192,18 +15595,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -15330,6 +15736,168 @@
         },
         "derivation_path": "m/44'/966'",
         "contract_address": "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://electrum3.cipig.net:18755"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "IDRT-ERC20": {
+        "coin": "IDRT-ERC20",
+        "type": "ERC-20",
+        "name": "Rupiah Token",
+        "coinpaprika_id": "idrt-rupiah-token",
+        "coingecko_id": "rupiah-token",
+        "livecoinwatch_id": "IDRT",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Rupiah Token",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 2,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "IDRT-BEP20": {
+        "coin": "IDRT-BEP20",
+        "type": "BEP-20",
+        "name": "Rupiah Token",
+        "coinpaprika_id": "idrt-rupiah-token",
+        "coingecko_id": "rupiah-token",
+        "livecoinwatch_id": "IDRT",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Rupiah Token",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 2,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x66207E39bb77e6B99aaB56795C7c340C08520d83"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0x66207E39bb77e6B99aaB56795C7c340C08520d83",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "IDRT-PLG20": {
+        "coin": "IDRT-PLG20",
+        "type": "Matic",
+        "name": "Rupiah Token",
+        "coinpaprika_id": "idrt-rupiah-token",
+        "coingecko_id": "rupiah-token",
+        "livecoinwatch_id": "IDRT",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Rupiah Token",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 6,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b",
         "parent_coin": "MATIC",
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
@@ -15628,18 +16196,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -15736,18 +16307,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -15842,18 +16416,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16395,18 +16972,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16656,18 +17236,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16815,18 +17398,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -17392,18 +17978,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -18186,18 +18775,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -18734,18 +19326,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -18849,18 +19444,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -18959,18 +19557,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -19354,18 +19955,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -19512,18 +20116,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -19577,18 +20184,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -19945,18 +20555,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20196,18 +20809,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20446,18 +21062,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20597,18 +21216,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20779,18 +21401,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20957,18 +21582,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -21165,18 +21793,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -21323,18 +21954,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -21849,18 +22483,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22070,6 +22707,11 @@
         },
         "electrum": [
             {
+                "url": "nmc2.bitcoins.sk:57002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -22080,15 +22722,6 @@
             },
             {
                 "url": "electrumx2.nmc.dotbit.zone:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx3.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -22140,6 +22773,11 @@
         },
         "electrum": [
             {
+                "url": "nmc2.bitcoins.sk:57002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrumx1.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -22150,15 +22788,6 @@
             },
             {
                 "url": "electrumx2.nmc.dotbit.zone:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx3.nmc.dotbit.zone:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -22417,18 +23046,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22629,18 +23261,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22745,18 +23380,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22949,18 +23587,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23203,18 +23844,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23359,18 +24003,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23474,18 +24121,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23637,18 +24287,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23795,18 +24448,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23957,18 +24613,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -24118,18 +24777,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -24560,18 +25222,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -24625,18 +25290,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -24867,18 +25535,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25031,18 +25702,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25138,18 +25812,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25198,18 +25875,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25615,18 +26295,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25726,18 +26409,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25837,18 +26523,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25902,18 +26591,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26139,18 +26831,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26494,18 +27189,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26795,18 +27493,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27119,18 +27820,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27453,18 +28157,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27794,18 +28501,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27852,6 +28562,264 @@
                 "contact": {
                     "email": "quest@mac.com"
                 }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SYN-ERC20": {
+        "coin": "SYN-ERC20",
+        "type": "ERC-20",
+        "name": "Synapse",
+        "coinpaprika_id": "syn-synapse",
+        "coingecko_id": "synapse-2",
+        "livecoinwatch_id": "_SYN",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Synapse",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 18,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/ethereum",
+                "gui_auth": true
+            },
+            {
+                "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            },
+            {
+                "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
+                "contact": {
+                    "email": "cipi@komodoplatform.com"
+                }
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SYN-BEP20": {
+        "coin": "SYN-BEP20",
+        "type": "BEP-20",
+        "name": "Synapse",
+        "coinpaprika_id": "syn-synapse",
+        "coingecko_id": "synapse-2",
+        "livecoinwatch_id": "_SYN",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Synapse",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xa4080f1778e69467E905B8d6F72f6e441f9e9484"
+            }
+        },
+        "derivation_path": "m/44'/714'",
+        "contract_address": "0xa4080f1778e69467E905B8d6F72f6e441f9e9484",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc1.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "SYN-PLG20": {
+        "coin": "SYN-PLG20",
+        "type": "Matic",
+        "name": "Synapse",
+        "coinpaprika_id": "syn-synapse",
+        "coingecko_id": "synapse-2",
+        "livecoinwatch_id": "_SYN",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Synapse",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695"
+            }
+        },
+        "derivation_path": "m/44'/966'",
+        "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/polygon",
+                "gui_auth": true
+            },
+            {
+                "url": "https://polygon-rpc.com"
+            },
+            {
+                "url": "https://polygon.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://electrum3.cipig.net:18755"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SYN-AVX20": {
+        "coin": "SYN-AVX20",
+        "type": "AVX-20",
+        "name": "Synapse",
+        "coinpaprika_id": "syn-synapse",
+        "coingecko_id": "synapse-2",
+        "livecoinwatch_id": "_SYN",
+        "explorer_url": "https://snowtrace.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Synapse",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 43114,
+        "decimals": 18,
+        "avg_blocktime": 2.4,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "AVAX",
+                "contract_address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251"
+            }
+        },
+        "derivation_path": "m/44'/9000'",
+        "contract_address": "0x1f1E7c893855525b303f99bDF5c3c05Be09ca251",
+        "parent_coin": "AVAX",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/avalanche",
+                "gui_auth": true
+            },
+            {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche.blockpi.network/v1/rpc/public"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SYN-FTM20": {
+        "coin": "SYN-FTM20",
+        "type": "FTM-20",
+        "name": "Synapse",
+        "coinpaprika_id": "syn-synapse",
+        "coingecko_id": "synapse-2",
+        "livecoinwatch_id": "_SYN",
+        "explorer_url": "https://ftmscan.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Synapse",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 250,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "FTM",
+                "contract_address": "0xE55e19Fb4F2D85af758950957714292DAC1e25B2"
+            }
+        },
+        "derivation_path": "m/44'/1007'",
+        "contract_address": "0xE55e19Fb4F2D85af758950957714292DAC1e25B2",
+        "parent_coin": "FTM",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://node.komodo.earth:8080/fantom",
+                "gui_auth": true
+            },
+            {
+                "url": "https://fantom.drpc.org"
+            },
+            {
+                "url": "https://fantom-pokt.nodies.app"
             }
         ],
         "explorer_block_url": "block/"
@@ -28057,18 +29025,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28165,18 +29136,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28370,18 +29344,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28667,18 +29644,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29057,18 +30037,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29217,18 +30200,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29564,18 +30550,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29765,18 +30754,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29928,18 +30920,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -30169,12 +31164,12 @@
         },
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50002",
+                "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -30322,18 +31317,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -30758,18 +31756,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31239,18 +32240,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31298,18 +32302,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31519,6 +32526,7 @@
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 15,
+        "chain_id": 1,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -31538,18 +32546,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31598,18 +32609,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32111,18 +33125,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32222,18 +33239,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32282,18 +33302,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32537,18 +33560,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32693,18 +33719,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33117,18 +34146,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33182,18 +34214,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33325,7 +34360,7 @@
         "txfee": 1000,
         "dust": 10000,
         "mm2": 1,
-        "required_confirmations": 7,
+        "required_confirmations": 4,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -33657,18 +34692,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33912,18 +34950,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -34173,6 +35214,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -34318,18 +35363,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -34509,18 +35557,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35264,18 +36315,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35328,18 +36382,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35393,18 +36450,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35458,18 +36518,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35518,18 +36581,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35578,18 +36644,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35642,18 +36711,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35702,18 +36774,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35767,18 +36842,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35831,18 +36909,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35934,18 +37015,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35994,18 +37078,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36058,18 +37145,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36123,18 +37213,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36183,18 +37276,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36243,18 +37339,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36307,18 +37406,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36367,18 +37469,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36427,18 +37532,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36535,18 +37643,21 @@
             },
             {
                 "url": "https://eth1.cipig.net:18555",
+                "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth2.cipig.net:18555",
+                "ws_url": "wss://eth2.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
             },
             {
                 "url": "https://eth3.cipig.net:18555",
+                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -37078,9 +38189,11 @@
                         28,
                         189
                     ]
-                }
+                },
+                "z_derivation_path": "m/32'/133'"
             }
         },
+        "derivation_path": "m/44'/133'",
         "required_confirmations": 3,
         "electrum": [
             {
@@ -37202,7 +38315,7 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50002",
+                "url": "electrum4.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -37214,7 +38327,7 @@
                 ]
             },
             {
-                "url": "electrum4.runebase.io:50002",
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -37343,6 +38456,7 @@
                 "decimals": 6,
                 "denom": "uatom",
                 "account_prefix": "cosmos",
+                "chain_registry_name": "cosmoshub",
                 "chain_id": "cosmoshub-4"
             }
         },
@@ -37350,6 +38464,9 @@
         "rpc_urls": [
             {
                 "url": "https://cosmos.komodo.earth/"
+            },
+            {
+                "url": "https://cosmos.blockpi.network/rpc/v1/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -37372,6 +38489,7 @@
         "wallet_only": false,
         "avg_blocktime": 7,
         "fname": "IRISnet",
+        "chain_id": 6688,
         "mm2": 1,
         "protocol": {
             "type": "TENDERMINT",
@@ -37380,6 +38498,7 @@
                 "denom": "uiris",
                 "account_prefix": "iaa",
                 "chain_id": "irishub-1",
+                "chain_registry_name": "irishub",
                 "gas_price": 0.5
             }
         },
@@ -37468,10 +38587,12 @@
                 "decimals": 6,
                 "denom": "uosmo",
                 "account_prefix": "osmo",
+                "chain_registry_name": "osmosis",
                 "chain_id": "osmosis-1",
                 "gas_price": 0.5
             }
         },
+        "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
                 "url": "https://rpc.osmosis.zone/"
@@ -37486,7 +38607,7 @@
     "ATOM-IBC_IRIS": {
         "coin": "ATOM-IBC_IRIS",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos IBC-IRIS",
+        "name": "Cosmos",
         "coinpaprika_id": "atom-cosmos",
         "coingecko_id": "cosmos-hub",
         "livecoinwatch_id": "ATOM",
@@ -37498,7 +38619,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "fname": "Cosmos IBC-IRIS",
+        "fname": "Cosmos",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -37594,12 +38715,77 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CRNC": {
+        "coin": "CRNC",
+        "type": "UTXO",
+        "name": "CrionicCoin",
+        "coinpaprika_id": "crnc-crionic",
+        "coingecko_id": "crionic",
+        "livecoinwatch_id": "CRNC",
+        "explorer_url": "https://explorer.crionic.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Crioniccoin Signed Message:\n",
+        "fname": "CrionicCoin",
+        "rpcport": 4466,
+        "pubtype": 28,
+        "p2shtype": 45,
+        "wiftype": 176,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "crnc",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 20,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "links": {
+            "github": "https://github.com/diabaths/Crionic-Coin",
+            "homepage": "https://coin.crionic.org"
+        },
+        "electrum": [
+            {
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "explorer.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EVR": {
         "coin": "EVR",
         "type": "UTXO",
         "name": "Evrmore Coin",
         "coinpaprika_id": "evr-evrmore",
-        "coingecko_id": "",
+        "coingecko_id": "evrmore",
         "livecoinwatch_id": "_EVR",
         "explorer_url": "https://evr.cryptoscope.io/",
         "explorer_tx_url": "tx/?txid=",
@@ -37689,6 +38875,15 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
@@ -37794,6 +38989,15 @@
                 ]
             },
             {
+                "url": "meowcoinelectrumcoms.xyz:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
                 "url": "meowelectrum.xyz:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -37804,6 +39008,183 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "IRISTEST": {
+        "coin": "IRISTEST",
+        "type": "TENDERMINT",
+        "name": "Iris Test",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://nyancat.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 7,
+        "fname": "Iris Test",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "unyan",
+                "account_prefix": "iaa",
+                "chain_id": "nyancat-9",
+                "gas_price": 0.5
+            }
+        },
+        "derivation_path": "m/44'/1'",
+        "rpc_urls": [
+            {
+                "url": "https://iristest-rpc.bravo.komodo.earth/"
+            }
+        ],
+        "explorer_block_url": "#/blocks/"
+    },
+    "NUCLEUSTEST": {
+        "coin": "NUCLEUSTEST",
+        "type": "TENDERMINT",
+        "name": "Nucleus Test",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://nucleus.explorer.komodo.earth/",
+        "explorer_tx_url": "nucleus/transactions/",
+        "explorer_address_url": "nucleus/accounts/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 5,
+        "fname": "Nucleus Test",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "unucl",
+                "account_prefix": "nuc",
+                "chain_registry_name": "nucleus",
+                "chain_id": "nucleus-3"
+            }
+        },
+        "derivation_path": "m/44'/1'",
+        "rpc_urls": [
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+            }
+        ],
+        "explorer_block_url": "nucleus/blocks/"
+    },
+    "IRISTEST-IBC_NUCLEUSTEST": {
+        "coin": "IRISTEST-IBC_NUCLEUSTEST",
+        "type": "TENDERMINTTOKEN",
+        "name": "Iris Test",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://nyancat.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 5,
+        "fname": "Iris Test",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "NUCLEUSTEST",
+                "decimals": 6,
+                "denom": "ibc/F7F28FF3C09024A0225EDBBDB207E5872D2B4EF2FB874FE47B05EF9C9A7D211C"
+            }
+        },
+        "derivation_path": "m/44'/1'",
+        "parent_coin": "IRISTEST",
+        "rpc_urls": [
+            {
+                "url": "https://iristest-rpc.bravo.komodo.earth/"
+            }
+        ],
+        "explorer_block_url": "#/blocks/"
+    },
+    "ATOM-IBC_NUCLEUSTEST": {
+        "coin": "ATOM-IBC_NUCLEUSTEST",
+        "type": "TENDERMINTTOKEN",
+        "name": "Cosmos",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "ATOM",
+        "explorer_url": "https://nucleus.explorer.komodo.earth/",
+        "explorer_tx_url": "nucleus/transactions/",
+        "explorer_address_url": "nucleus/accounts/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 5,
+        "fname": "Cosmos",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "NUCLEUSTEST",
+                "decimals": 6,
+                "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E"
+            }
+        },
+        "parent_coin": "NUCLEUSTEST",
+        "rpc_urls": [
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+            }
+        ],
+        "explorer_block_url": "nucleus/blocks/",
+        "binance_id": "ATOM"
+    },
+    "OSMO-IBC_NUCLEUSTEST": {
+        "coin": "OSMO-IBC_NUCLEUSTEST",
+        "type": "TENDERMINTTOKEN",
+        "name": "Osmosis",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "OSMO",
+        "explorer_url": "https://nucleus.explorer.komodo.earth/",
+        "explorer_tx_url": "nucleus/transactions/",
+        "explorer_address_url": "nucleus/accounts/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 5,
+        "fname": "Osmosis",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "NUCLEUSTEST",
+                "decimals": 6,
+                "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23"
+            }
+        },
+        "parent_coin": "NUCLEUSTEST",
+        "rpc_urls": [
+            {
+                "url": "https://nucleus-rpc.bravo.komodo.earth/"
+            }
+        ],
+        "explorer_block_url": "nucleus/blocks/",
+        "binance_id": "OSMO"
     },
     "ZOIN": {
         "coin": "ZOIN",
