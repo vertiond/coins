@@ -868,7 +868,8 @@
     "avg_blocktime": 2.4,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "AVAX",
@@ -1883,7 +1884,8 @@
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "BNT-BEP20",
@@ -4520,7 +4522,8 @@
     "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "ETH-BEP20",
@@ -5190,7 +5193,8 @@
     "avg_blocktime": 15,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "FTM",
@@ -8141,7 +8145,8 @@
     "required_confirmations": 3,
     "protocol": {
       "type": "ETH"
-    }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "MATIC",
@@ -14453,7 +14458,7 @@
     "protocol": {
       "type": "ETH"
     },
-    "derivation_path": "m/44'/108'",
+    "derivation_path": "m/44'/60'",
     "trezor_coin": "Ubiq",
     "links": {
       "homepage": "https://ubiqsmart.com"
@@ -15282,7 +15287,7 @@
         "gas_price": 0.5
       }
     },
-    "derivation_path": "m/44'/1'"
+    "derivation_path": "m/44'/118'"
   },
   {
     "coin": "NUCLEUSTEST",
