@@ -787,18 +787,13 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-two.artbytecoin.org:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "electrumx-three.artbyte.live:50012",
@@ -27571,6 +27566,60 @@
         ],
         "explorer_block_url": "block/"
     },
+    "RDD": {
+        "coin": "RDD",
+        "type": "UTXO",
+        "name": "ReddCoin",
+        "coinpaprika_id": "rdd-reddcoin",
+        "coingecko_id": "reddcoin",
+        "livecoinwatch_id": "RDD",
+        "explorer_url": "https://live.reddcoin.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "ReddCoin",
+        "isPoSV": 1,
+        "rpcport": 45443,
+        "pubtype": 61,
+        "p2shtype": 5,
+        "wiftype": 189,
+        "txversion": 2,
+        "txfee": 100000,
+        "dust": 100000,
+        "segwit": false,
+        "mm2": 1,
+        "mature_confirmations": 30,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/4'",
+        "trezor_coin": "Reddcoin",
+        "links": {
+            "github": "https://github.com/reddcoin-project/reddcoin",
+            "homepage": "https://reddcoin.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum01.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum02.reddcoin.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum03.reddcoin.com:50002",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "REN-ERC20": {
         "coin": "REN-ERC20",
         "type": "ERC-20",
@@ -35003,6 +35052,21 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -35018,7 +35082,7 @@
                 ]
             },
             {
-                "url": "electrum3.grms.pw:50002",
+                "url": "electrum2.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -35031,21 +35095,6 @@
                         "github": "Miner113"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.grms.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ],
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -36795,11 +36844,11 @@
         },
         "electrum": [
             {
-                "url": "electrumx2.vanillacash.info:50011",
+                "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx1.vanillacash.info:50011",
+                "url": "electrumx2.vanillacash.info:50011",
                 "protocol": "TCP"
             }
         ],
@@ -37689,6 +37738,10 @@
         },
         "electrum": [
             {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -37696,10 +37749,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zeta-seed-d.zetacoin.network:50012",
-                "protocol": "SSL"
             },
             {
                 "url": "207.180.252.200:50011",
@@ -40215,15 +40264,6 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -40234,6 +40274,15 @@
             },
             {
                 "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electroncash.de:50004",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41204,16 +41253,13 @@
                 ]
             },
             {
-                "url": "electrumx2.mazacha.in:50002",
-                "protocol": "SSL",
+                "url": "electrum.seed.mazanode.com:50001",
                 "contact": [
                     {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
+                        "email": "brian@mazacoin.org"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
