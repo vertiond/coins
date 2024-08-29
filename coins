@@ -3075,7 +3075,15 @@
         "contract_address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB"
       }
     },
-    "derivation_path": "m/44'/60'"
+    "derivation_path": "m/44'/60'",
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 300000,
+        "erc20_receiver_spend": 250000,
+        "erc20_sender_refund": 250000
+    }
   },
   {
     "coin": "CFX-BEP20",
