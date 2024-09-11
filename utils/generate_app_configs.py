@@ -480,9 +480,11 @@ class CoinConfig:
                     {"fallback_swap_contract": contract_data["fallback_swap_contract"]}
                 )
             if "rpc_nodes" in contract_data:
-                self.data[self.ticker].update({"nodes": contract_data["rpc_nodes"]})
                 if self.data[self.ticker]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]:
-                    self.data[self.ticker].update({"rpc_urls": [i['url'] for i in contract_data["rpc_nodes"]]})
+                    key = "rpc_urls"
+                else:
+                    key = "nodes"
+                self.data[self.ticker].update({key: contract_data["rpc_nodes"]})
 
     def get_explorers(self):
         explorers = None
