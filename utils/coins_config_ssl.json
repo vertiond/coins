@@ -836,58 +836,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "ABY": {
-        "coin": "ABY",
-        "type": "UTXO",
-        "name": "ArtByte",
-        "coinpaprika_id": "aby-artbyte",
-        "coingecko_id": "artbyte",
-        "livecoinwatch_id": "ABY",
-        "explorer_url": "https://chainz.cryptoid.info/aby/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "ArtByte",
-        "isPoS": 1,
-        "rpcport": 9262,
-        "pubtype": 28,
-        "p2shtype": 85,
-        "wiftype": 153,
-        "txfee": 100000,
-        "dust": 100000,
-        "mm2": 1,
-        "mature_confirmations": 550,
-        "required_confirmations": 7,
-        "avg_blocktime": 45,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "elec-seeder-one.artbytecoin.org:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "elec-seeder-two.artbytecoin.org:50012",
-                "protocol": "SSL"
-            },
-            {
-                "url": "aby-ex-four.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "ADA-BEP20": {
         "coin": "ADA-BEP20",
         "type": "BEP-20",
@@ -1421,61 +1369,6 @@
                 "contact": [
                     {
                         "discord": "482101557383528448"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.aipowergrid.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "482101557383528448"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "ANEY": {
-        "coin": "ANEY",
-        "type": "UTXO",
-        "name": "Animal Economy",
-        "coinpaprika_id": "aney-animal-economy",
-        "coingecko_id": "",
-        "livecoinwatch_id": "ANEY",
-        "explorer_url": "https://explorer.aney.one/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Animal Economy",
-        "rpcport": 33500,
-        "pubtype": 23,
-        "p2shtype": 63,
-        "wiftype": 210,
-        "txfee": 100000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/119'",
-        "links": {
-            "github": "https://github.com/Animal-Economy/ANEY",
-            "homepage": "https://aney.one"
-        },
-        "electrum": [
-            {
-                "url": "e1.aney.one:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "telegram": "@SimonCeo"
                     }
                 ]
             }
@@ -11986,18 +11879,6 @@
                         "discord": "cipi#4502"
                     }
                 ]
-            },
-            {
-                "url": "electrum1.cipig.net:20052",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "cipi@komodoplatform.com"
-                    },
-                    {
-                        "discord": "cipi#4502"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -12034,17 +11915,17 @@
         "derivation_path": "m/44'/78'",
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
                 "url": "lenoir.ecoincore.com:11017",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrum1.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -33591,45 +33472,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "TRC": {
-        "coin": "TRC",
-        "type": "UTXO",
-        "name": "Terracoin",
-        "coinpaprika_id": "trc-terracoin",
-        "coingecko_id": "terracoin",
-        "livecoinwatch_id": "TRC",
-        "explorer_url": "https://chainz.cryptoid.info/trc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Terracoin",
-        "confpath": "USERHOME/.terracoincore/terracoin.conf",
-        "rpcport": 13332,
-        "pubtype": 0,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "txfee": 10000,
-        "dust": 5460,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/83'",
-        "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50006",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
         "type": "BEP-20",
@@ -35165,11 +35007,6 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
             {
                 "url": "uno-main.coinmunity.gold:50002",
                 "protocol": "SSL",
@@ -37115,22 +36952,6 @@
                 "disable_cert_verification": false
             },
             {
-                "url": "el1.verus.io:17486",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
-            },
-            {
                 "url": "el2.verus.io:17486",
                 "protocol": "SSL",
                 "contact": [
@@ -37206,52 +37027,6 @@
                     },
                     {
                         "github": "Miner113"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "WAF": {
-        "coin": "WAF",
-        "type": "UTXO",
-        "name": "Waifu",
-        "coinpaprika_id": "waf-waifu-core",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_WAF",
-        "explorer_url": "https://waifu-explorer.io/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Waifu Signed Message:\n",
-        "fname": "Waifu",
-        "rpcport": 18332,
-        "pubtype": 73,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "segwit": true,
-        "bech32_hrp": "waf",
-        "txfee": 1000,
-        "mm2": 1,
-        "required_confirmations": 4,
-        "avg_blocktime": 210,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "links": {
-            "github": "https://github.com/waifu-core/waifu-core"
-        },
-        "electrum": [
-            {
-                "url": "waifu-explorer.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "376197863346274307"
                     }
                 ]
             }
@@ -39755,50 +39530,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
-    },
-    "ZET": {
-        "coin": "ZET",
-        "type": "UTXO",
-        "name": "Zetacoin",
-        "coinpaprika_id": "zet-zetacoin",
-        "coingecko_id": "zetacoin",
-        "livecoinwatch_id": "ZET",
-        "explorer_url": "https://chainz.cryptoid.info/zet/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Zetacoin Signed Message:\n",
-        "fname": "Zetacoin",
-        "isPoS": 1,
-        "rpcport": 22014,
-        "pubtype": 20,
-        "p2shtype": 85,
-        "wiftype": 153,
-        "txfee": 100000,
-        "dust": 100000,
-        "mm2": 1,
-        "mature_confirmations": 500,
-        "required_confirmations": 7,
-        "avg_blocktime": 45,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
         "coin": "ZIL-BEP20",
@@ -43360,7 +43091,7 @@
         "type": "TENDERMINTTOKEN",
         "name": "Cosmos",
         "coinpaprika_id": "atom-cosmos",
-        "coingecko_id": "cosmos-hub",
+        "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
         "explorer_url": "https://irishub.iobscan.io/",
         "explorer_tx_url": "#/txs/",
@@ -43463,71 +43194,6 @@
                     },
                     {
                         "discord": "sherm77#5923"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CRNC": {
-        "coin": "CRNC",
-        "type": "UTXO",
-        "name": "CrionicCoin",
-        "coinpaprika_id": "crnc-crionic",
-        "coingecko_id": "crionic",
-        "livecoinwatch_id": "CRNC",
-        "explorer_url": "https://explorer.crionic.org/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Crioniccoin Signed Message:\n",
-        "fname": "CrionicCoin",
-        "rpcport": 4466,
-        "pubtype": 28,
-        "p2shtype": 45,
-        "wiftype": 176,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "crnc",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 20,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/192'",
-        "links": {
-            "github": "https://github.com/diabaths/Crionic-Coin",
-            "homepage": "https://coin.crionic.org"
-        },
-        "electrum": [
-            {
-                "url": "coin.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
-                    }
-                ]
-            },
-            {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "diabatiis@gmail.com"
-                    },
-                    {
-                        "discord": "Diabaths#1919"
                     }
                 ]
             }
@@ -43902,8 +43568,8 @@
         "coin": "ATOM-IBC_NUCLEUSTEST",
         "type": "TENDERMINTTOKEN",
         "name": "Cosmos",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
         "explorer_url": "https://nucleus.explorer.komodo.earth/",
         "explorer_tx_url": "nucleus/transactions/",
@@ -43958,8 +43624,8 @@
         "coin": "OSMO-IBC_NUCLEUSTEST",
         "type": "TENDERMINTTOKEN",
         "name": "Osmosis",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "osmo-osmosis",
+        "coingecko_id": "osmosis",
         "livecoinwatch_id": "OSMO",
         "explorer_url": "https://nucleus.explorer.komodo.earth/",
         "explorer_tx_url": "nucleus/transactions/",
