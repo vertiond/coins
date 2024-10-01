@@ -3158,8 +3158,7 @@
     "txfee": 10000,
     "segwit": true,
     "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
+    "required_confirmations": 5,
     "avg_blocktime": 10,
     "protocol": {
       "type": "UTXO"
