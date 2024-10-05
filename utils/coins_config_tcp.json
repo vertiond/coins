@@ -237,6 +237,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -246,13 +250,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -560,6 +557,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -569,13 +570,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -777,6 +771,58 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ABY": {
+        "coin": "ABY",
+        "type": "UTXO",
+        "name": "ArtByte",
+        "coinpaprika_id": "aby-artbyte",
+        "coingecko_id": "artbyte",
+        "livecoinwatch_id": "ABY",
+        "explorer_url": "https://chainz.cryptoid.info/aby/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "ArtByte",
+        "isPoS": 1,
+        "rpcport": 9262,
+        "pubtype": 28,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 550,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "electrum": [
+            {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL"
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "ADA-BEP20": {
         "coin": "ADA-BEP20",
         "type": "BEP-20",
@@ -925,6 +971,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -934,13 +984,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1029,6 +1072,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1038,13 +1085,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1144,6 +1184,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1153,13 +1197,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1309,6 +1346,15 @@
                         "discord": "482101557383528448"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.aipowergrid.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "482101557383528448"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -1398,6 +1444,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1407,13 +1457,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1513,6 +1556,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1522,13 +1569,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1737,6 +1777,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1746,13 +1790,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -1910,6 +1947,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -1919,13 +1960,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -2297,6 +2331,15 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
+                "url": "electrum1.valhala.is:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "388437778624413706"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -2395,6 +2438,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -2404,13 +2451,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -2704,6 +2744,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -2713,13 +2757,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -2900,6 +2937,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -2909,13 +2950,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -2947,8 +2981,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 30,
         "protocol": {
             "type": "UTXO"
@@ -3154,6 +3187,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -3163,13 +3200,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -3421,6 +3451,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -3430,13 +3464,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -3626,6 +3653,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -3635,13 +3666,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -4031,6 +4055,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -4040,13 +4068,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -4436,6 +4457,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -4445,13 +4470,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -4607,49 +4625,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/",
         "forex_id": "IDR"
-    },
-    "BITN": {
-        "coin": "BITN",
-        "type": "UTXO",
-        "name": "Bitnet",
-        "coinpaprika_id": "bit-bitnet",
-        "coingecko_id": "bitnet-io",
-        "livecoinwatch_id": "________BIT",
-        "explorer_url": "https://bitexplorer.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Bitnet Signed Message:\n",
-        "fname": "Bitnet",
-        "rpcport": 9332,
-        "pubtype": 25,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "txfee": 700000,
-        "segwit": true,
-        "bech32_hrp": "bit",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "bitexplorer.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "c4pt#7855"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
     },
     "BLK": {
         "coin": "BLK",
@@ -5011,6 +4986,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -5020,13 +4999,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -5204,6 +5176,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -5213,13 +5189,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -5315,6 +5284,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -5324,13 +5297,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -5426,6 +5392,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -5435,13 +5405,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -5485,6 +5448,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -5494,13 +5461,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -5692,11 +5652,15 @@
         "derivation_path": "m/44'/664'",
         "electrum": [
             {
+                "url": "electrumserver01.globalboost.info:50014",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumserver02.globalboost.info:50014",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumserver02.globalboost.info:50011",
+                "url": "electrumserver01.globalboost.info:50011",
                 "protocol": "TCP"
             }
         ],
@@ -5954,6 +5918,15 @@
         },
         "derivation_path": "m/44'/177'",
         "electrum": [
+            {
+                "url": "electrum1.btcz.rocks:50001",
+                "contact": [
+                    {
+                        "discord": "VandarGR#6065"
+                    }
+                ],
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum2.btcz.rocks:50001",
                 "contact": [
@@ -6327,6 +6300,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -6336,13 +6313,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -6680,6 +6650,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -6689,13 +6663,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -6837,6 +6804,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -6846,13 +6817,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -7382,6 +7346,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -7391,13 +7359,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -7494,6 +7455,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -7503,13 +7468,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -7834,8 +7792,7 @@
         "txfee": 10000,
         "segwit": true,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 10,
         "protocol": {
             "type": "UTXO"
@@ -7920,6 +7877,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -7929,13 +7890,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8027,6 +7981,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -8036,13 +7994,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8231,7 +8182,19 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "electrumx.cryptocollider.com:10001",
+                "url": "v2.cryptocollider.com:8443",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
+                    }
+                ]
+            },
+            {
+                "url": "v2.cryptocollider.com:10001",
                 "contact": [
                     {
                         "email": "electrumx@cryptocollider.com"
@@ -8439,6 +8402,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -8448,13 +8415,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8598,6 +8558,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -8607,13 +8571,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -8828,6 +8785,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -8837,13 +8798,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9239,6 +9193,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -9248,13 +9206,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9477,6 +9428,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -9486,13 +9441,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9863,6 +9811,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -9872,13 +9824,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9925,6 +9870,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -9934,13 +9883,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -9984,6 +9926,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -9993,13 +9939,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -10347,6 +10286,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -10356,13 +10299,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -10605,18 +10541,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.dimecoinnetwork.com:50001",
-                "contact": [
-                    {
-                        "email": "developer@dimecoinnetwork.com"
-                    },
-                    {
-                        "discord": "dhop14#9359"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
                 "url": "electrumx2.dimecoinnetwork.com:50001",
                 "contact": [
                     {
@@ -10681,16 +10605,6 @@
                     },
                     {
                         "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.diminutivecoin.com:50012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "support@diminutivecoin.com"
                     }
                 ]
             }
@@ -10969,6 +10883,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -10978,13 +10896,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11720,6 +11631,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -11729,13 +11644,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11842,6 +11750,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -11851,13 +11763,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -11889,8 +11794,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -11977,6 +11881,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -11986,13 +11894,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -12278,6 +12179,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -12287,13 +12192,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -12684,6 +12582,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -12693,13 +12595,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -12799,6 +12694,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -12808,13 +12707,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -12920,6 +12812,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -12929,13 +12825,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13131,6 +13020,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -13140,13 +13033,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13252,6 +13138,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -13261,13 +13151,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13311,6 +13194,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -13320,13 +13207,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -13527,6 +13407,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -13536,13 +13420,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14050,6 +13927,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -14059,13 +13940,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14462,6 +14336,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -14471,13 +14349,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14573,6 +14444,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -14582,13 +14457,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14827,6 +14695,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -14836,13 +14708,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -14937,6 +14802,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -14946,13 +14815,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -15395,6 +15257,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -15404,13 +15270,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -15781,6 +15640,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -15790,13 +15653,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16055,6 +15911,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16064,13 +15924,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16350,6 +16203,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16359,13 +16216,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16560,6 +16410,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16569,13 +16423,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16619,6 +16466,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16628,13 +16479,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16683,6 +16527,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16692,13 +16540,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16798,6 +16639,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16807,13 +16652,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -16949,6 +16787,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -16958,13 +16800,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -17008,6 +16843,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -17017,13 +16856,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -17203,6 +17035,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -17212,13 +17048,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -17396,24 +17225,11 @@
                 ]
             },
             {
-                "url": "il9p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
+                "url": "il8p-ex-five.ewmci.online:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
+                        "discord": "475820011634819072"
                     }
                 ]
             }
@@ -17454,18 +17270,6 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [
-            {
-                "url": "electrum1.ilien.io:65011",
-                "contact": [
-                    {
-                        "email": "admin@ilien.io"
-                    },
-                    {
-                        "discord": "siu - Chainmakers#3920"
-                    }
-                ],
-                "protocol": "TCP"
-            },
             {
                 "url": "electrum2.ilien.io:65011",
                 "contact": [
@@ -17664,6 +17468,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -17673,13 +17481,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -17782,6 +17583,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -17791,13 +17596,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -17898,6 +17696,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -17907,13 +17709,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -18121,6 +17916,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -18130,13 +17929,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -18608,6 +18400,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -18617,13 +18413,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -18878,6 +18667,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -18887,13 +18680,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -19044,6 +18830,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -19053,13 +18843,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -19630,6 +19413,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -19639,13 +19426,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20228,6 +20008,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -20237,13 +20021,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20745,6 +20522,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -20754,13 +20535,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -20824,67 +20598,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "FRC": {
-        "coin": "FRC",
-        "type": "UTXO",
-        "name": "FairCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.faircoin.tech/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "FairCoin",
-        "rpcport": 9875,
-        "pubtype": 36,
-        "p2shtype": 63,
-        "wiftype": 128,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "frc",
-        "mm2": 1,
-        "required_confirmations": 6,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.faircoin.tech:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "antoinebrulenew@gmail.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.faircoin.tech:50004",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "antoinebrulenew@gmail.com"
-                    },
-                    {
-                        "discord": "merlin#7125"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "LEO-ERC20": {
         "coin": "LEO-ERC20",
         "type": "ERC-20",
@@ -20925,6 +20638,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -20934,13 +20651,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -21031,6 +20741,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -21040,13 +20754,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -21435,6 +21142,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -21444,13 +21155,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -21600,6 +21304,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -21609,13 +21317,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -21664,6 +21365,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -21673,13 +21378,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22045,6 +21743,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -22054,13 +21756,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22306,6 +22001,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -22315,13 +22014,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22562,6 +22254,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -22571,13 +22267,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22712,6 +22401,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -22721,13 +22414,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22896,6 +22582,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -22905,13 +22595,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -22943,8 +22626,7 @@
         "txfee": 100000,
         "dust": 54600,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -23076,6 +22758,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -23085,13 +22771,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23286,6 +22965,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -23295,13 +22978,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23448,6 +23124,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -23457,13 +23137,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -23805,6 +23478,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -23814,13 +23491,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -24290,6 +23960,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -24299,13 +23973,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -24865,6 +24532,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -24874,13 +24545,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25079,6 +24743,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -25088,13 +24756,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25186,6 +24847,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -25195,13 +24860,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25365,6 +25023,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -25374,13 +25036,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25566,6 +25221,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -25575,13 +25234,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -25822,6 +25474,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -25831,13 +25487,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26043,6 +25692,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26052,13 +25705,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26194,6 +25840,15 @@
         "derivation_path": "m/44'/119'",
         "electrum": [
             {
+                "url": "electrum01.chainster.org:50001",
+                "contact": [
+                    {
+                        "discord": "312541186793406465"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum02.chainster.org:50001",
                 "contact": [
                     {
@@ -26328,6 +25983,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26337,13 +25996,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26447,6 +26099,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26456,13 +26112,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26606,6 +26255,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26615,13 +26268,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26763,6 +26409,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26772,13 +26422,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -26865,15 +26508,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx.live:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "PRUX-Coin#1668"
-                    }
-                ]
-            },
-            {
                 "url": "txserver.live:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -26883,7 +26517,7 @@
                 ]
             },
             {
-                "url": "electrumx.live:50010",
+                "url": "txserver.live:50001",
                 "protocol": "TCP",
                 "contact": [
                     {
@@ -26930,6 +26564,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -26939,13 +26577,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27098,6 +26729,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -27107,13 +26742,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27555,6 +27183,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -27564,13 +27196,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27619,6 +27244,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -27628,13 +27257,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27872,6 +27494,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -27881,13 +27507,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -27998,14 +27617,6 @@
             {
                 "url": "electrum01.reddcoin.com:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -28051,6 +27662,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -28060,13 +27675,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28157,6 +27765,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -28166,13 +27778,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28216,6 +27821,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -28225,13 +27834,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28658,6 +28260,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -28667,13 +28273,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28765,6 +28364,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -28774,13 +28377,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28880,6 +28476,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -28889,13 +28489,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -28944,6 +28537,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -28953,13 +28550,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29003,75 +28593,6 @@
             },
             {
                 "url": "x2.raptoreum.com:50001",
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "GRR": {
-        "coin": "GRR",
-        "type": "UTXO",
-        "name": "Ghostridercoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://grr.oasispool.xyz/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Ghostridercoin",
-        "rpcport": 15420,
-        "pubtype": 38,
-        "p2shtype": 16,
-        "wiftype": 128,
-        "txfee": 1000,
-        "mm2": 1,
-        "confpath": "USERHOME/.grcoincore/grcoin.conf",
-        "required_confirmations": 3,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/10226'",
-        "electrum": [
-            {
-                "url": "electrum.electrumx-coin.shop:50008",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@electrumx-coin.shop"
-                    },
-                    {
-                        "github": "electrumx-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.electrumx-coin.shop:50008",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@electrumx-coin.shop"
-                    },
-                    {
-                        "github": "electrumx-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.electrumx-coin.shop:17488",
-                "contact": [
-                    {
-                        "email": "contact@electrumx-coin.shop"
-                    },
-                    {
-                        "github": "electrumx-coin"
-                    }
-                ],
                 "protocol": "TCP"
             }
         ],
@@ -29241,6 +28762,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -29250,13 +28775,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29617,6 +29135,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -29626,13 +29148,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -29932,6 +29447,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -29941,13 +29460,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -30262,6 +29774,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -30271,13 +29787,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -30587,6 +30096,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -30596,13 +30109,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -30940,6 +30446,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -30949,13 +30459,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31042,6 +30545,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -31051,13 +30558,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31463,6 +30963,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -31472,13 +30976,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31573,6 +31070,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -31582,13 +31083,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -31814,6 +31308,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -31823,13 +31321,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32205,6 +31696,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -32214,13 +31709,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32278,6 +31766,45 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "TRC": {
+        "coin": "TRC",
+        "type": "UTXO",
+        "name": "Terracoin",
+        "coinpaprika_id": "trc-terracoin",
+        "coingecko_id": "terracoin",
+        "livecoinwatch_id": "TRC",
+        "explorer_url": "https://chainz.cryptoid.info/trc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Terracoin",
+        "confpath": "USERHOME/.terracoincore/terracoin.conf",
+        "rpcport": 13332,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "dust": 5460,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/83'",
+        "electrum": [
+            {
+                "url": "failover.trc-uis.ewmcx.biz:50006",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "TRX-BEP20_OLD": {
         "coin": "TRX-BEP20_OLD",
@@ -32585,6 +32112,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -32594,13 +32125,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -32750,6 +32274,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -32759,13 +32287,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33095,6 +32616,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -33104,13 +32629,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33195,11 +32713,6 @@
             "type": "UTXO"
         },
         "electrum": [
-            {
-                "url": "failover.trc-uis.ewmcx.biz:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": false
-            },
             {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL",
@@ -33289,6 +32802,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -33298,13 +32815,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33445,6 +32955,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -33454,13 +32968,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -33698,17 +33205,14 @@
         },
         "electrum": [
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             },
             {
-                "url": "electrum.unobtanium.uno:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.unobtanium.uno:50001",
-                "protocol": "TCP"
+                "url": "uno-main.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -33900,6 +33404,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -33909,13 +33417,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -34353,6 +33854,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -34362,13 +33867,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -34866,6 +34364,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -34875,13 +34377,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35186,6 +34681,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -35195,13 +34694,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35245,6 +34737,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -35254,13 +34750,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35533,7 +35022,7 @@
                 "disable_cert_verification": false
             },
             {
-                "url": "el2.verus.io:17486",
+                "url": "el1.verus.io:17486",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -35549,7 +35038,8 @@
                 "disable_cert_verification": false
             },
             {
-                "url": "el0.verus.io:17485",
+                "url": "el2.verus.io:17486",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "0x03-ctrlc@protonmail.com"
@@ -35561,7 +35051,7 @@
                         "keybase": "bloodynora"
                     }
                 ],
-                "protocol": "TCP"
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block/"
@@ -35644,48 +35134,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "VPRM": {
-        "coin": "VPRM",
-        "type": "Smart Chain",
-        "name": "Vaporum",
-        "coinpaprika_id": "vprm-vaporum-coin",
-        "coingecko_id": "vaporum-coin",
-        "livecoinwatch_id": "VPRM",
-        "explorer_url": "http://explorer.vaporumcoin.us/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "VPRM",
-        "fname": "Vaporum",
-        "rpcport": 51609,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrumx1.vaporumcoin.us:50001",
-                "contact": [
-                    {
-                        "github": "VaporumCoin"
-                    }
-                ],
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "VTC": {
         "coin": "VTC",
         "type": "UTXO",
@@ -35724,6 +35172,10 @@
             "homepage": "https://vertcoin.org"
         },
         "electrum": [
+            {
+                "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.javerity.com:5885",
                 "contact": [
@@ -35778,6 +35230,10 @@
             "homepage": "https://vertcoin.org"
         },
         "electrum": [
+            {
+                "url": "88.99.26.209:5028",
+                "protocol": "TCP"
+            },
             {
                 "url": "electrumx.javerity.com:5885",
                 "contact": [
@@ -35882,6 +35338,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -35891,13 +35351,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -35997,6 +35450,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -36006,13 +35463,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36056,6 +35506,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -36065,13 +35519,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36374,6 +35821,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -36383,13 +35834,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36603,6 +36047,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -36612,13 +36060,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -36779,15 +36220,6 @@
             {
                 "url": "lenoir.ecoincore.com:10891",
                 "protocol": "TCP"
-            },
-            {
-                "url": "xmy-two.ewm-cx.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -36834,15 +36266,6 @@
             {
                 "url": "lenoir.ecoincore.com:10891",
                 "protocol": "TCP"
-            },
-            {
-                "url": "xmy-two.ewm-cx.net:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37129,6 +36552,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -37138,13 +36565,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -37193,6 +36613,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -37202,13 +36626,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -37372,17 +36789,12 @@
                 ]
             },
             {
-                "url": "electrumx2.vanillacash.info:50011",
+                "url": "electrumx1.vanillacash.info:50011",
                 "protocol": "TCP"
             },
             {
-                "url": "xvc-ex-seven.ewmci.online:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
+                "url": "electrumx2.vanillacash.info:50011",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -37770,6 +37182,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -37779,13 +37195,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -38034,6 +37443,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -38043,13 +37456,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -38295,6 +37701,19 @@
         },
         "electrum": [
             {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zeta-seed-d.zetacoin.network:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
             }
@@ -38445,6 +37864,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -38454,13 +37877,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -38678,6 +38094,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -38687,13 +38107,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39443,6 +38856,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39452,13 +38869,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39506,6 +38916,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39515,13 +38929,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39570,6 +38977,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39579,13 +38990,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39634,6 +39038,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39643,13 +39051,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39693,6 +39094,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39702,13 +39107,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39752,6 +39150,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39761,13 +39163,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39815,6 +39210,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39824,13 +39223,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39874,6 +39266,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39883,13 +39279,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -39938,6 +39327,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -39947,13 +39340,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40001,6 +39387,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40010,13 +39400,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40103,6 +39486,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40112,13 +39499,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40162,6 +39542,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40171,13 +39555,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40225,6 +39602,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40234,13 +39615,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40289,6 +39663,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40298,13 +39676,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40348,6 +39719,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40357,13 +39732,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40407,6 +39775,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40416,13 +39788,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40470,6 +39835,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40479,13 +39848,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40529,6 +39891,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40538,13 +39904,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40588,6 +39947,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40597,13 +39960,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40698,6 +40054,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -40707,13 +40067,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
@@ -40818,25 +40171,7 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
-                "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41352,20 +40687,8 @@
                 ]
             },
             {
-                "url": "electrum3.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.runebase.io:50002",
-                "protocol": "SSL",
+                "url": "electrum2.runebase.io:50001",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "email": "support@runebase.io"
@@ -41785,6 +41108,71 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CRNC": {
+        "coin": "CRNC",
+        "type": "UTXO",
+        "name": "CrionicCoin",
+        "coinpaprika_id": "crnc-crionic",
+        "coingecko_id": "crionic",
+        "livecoinwatch_id": "CRNC",
+        "explorer_url": "https://explorer.crionic.org/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Crioniccoin Signed Message:\n",
+        "fname": "CrionicCoin",
+        "rpcport": 4466,
+        "pubtype": 28,
+        "p2shtype": 45,
+        "wiftype": 176,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "crnc",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 20,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/192'",
+        "links": {
+            "github": "https://github.com/diabaths/Crionic-Coin",
+            "homepage": "https://coin.crionic.org"
+        },
+        "electrum": [
+            {
+                "url": "explorer.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
+            {
+                "url": "explorer.crionic.org:50001",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ],
+                "protocol": "TCP"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EVR": {
         "coin": "EVR",
         "type": "UTXO",
@@ -41892,15 +41280,6 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
-            {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
             {
                 "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
@@ -42269,75 +41648,6 @@
         "explorer_block_url": "nucleus/blocks/",
         "binance_id": "OSMO"
     },
-    "LUPA": {
-        "coin": "LUPA",
-        "type": "Smart Chain",
-        "name": "Lupaza",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.lupacoin.biz/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "LUPA",
-        "fname": "Lupaza",
-        "rpcport": 64151,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "electrum.lupacoin.biz:50005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.lupacoin.biz:50005",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.lupacoin.biz:17487",
-                "contact": [
-                    {
-                        "email": "contact@lupacoin.biz"
-                    },
-                    {
-                        "github": "LUPAZA-coin"
-                    }
-                ],
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "ZOIN": {
         "coin": "ZOIN",
         "type": "UTXO",
@@ -42430,6 +41740,10 @@
         "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
         "nodes": [
             {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
                 "url": "https://eth1.cipig.net:18555",
                 "ws_url": "wss://eth1.cipig.net:38555",
                 "contact": {
@@ -42439,13 +41753,6 @@
             {
                 "url": "https://eth2.cipig.net:18555",
                 "ws_url": "wss://eth2.cipig.net:38555",
-                "contact": {
-                    "email": "cipi@komodoplatform.com"
-                }
-            },
-            {
-                "url": "https://eth3.cipig.net:18555",
-                "ws_url": "wss://eth3.cipig.net:38555",
                 "contact": {
                     "email": "cipi@komodoplatform.com"
                 }
