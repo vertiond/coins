@@ -3148,23 +3148,6 @@
     "derivation_path": "m/44'/714'"
   },
   {
-    "coin": "CHIPS",
-    "name": "chips",
-    "fname": "Chips",
-    "rpcport": 57776,
-    "pubtype": 60,
-    "p2shtype": 85,
-    "wiftype": 188,
-    "txfee": 10000,
-    "segwit": true,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 10,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "CHSB-ERC20",
     "name": "chsb_erc20",
     "fname": "SwissBorg (OLD)",
@@ -12018,24 +12001,6 @@
       "github": "https://github.com/sumcoinlabs/sumcoin",
       "homepage": "https://www.sumcoin.org"
     }
-  },
-  {
-    "coin": "SUPERNET",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "SUPERNET",
-    "fname": "Supernet",
-    "rpcport": 11341,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "requires_notarization": true,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
   },
   {
     "coin": "SUSHI-AVX20",
