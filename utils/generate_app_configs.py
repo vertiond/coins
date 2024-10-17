@@ -14,19 +14,23 @@ repo_path = script_path.replace("/utils", "")
 os.chdir(script_path)
 
 BINANCE_DELISTED_COINS = [
+    "AGIX",
     "ANT",
     "BIDR",
     "GRS",
     "NAV",
     "BTT",
     "BUSD",
+    "LOOM",
     "MC",
     "MIR",
+    "OCEAN",
     "OMG",
     "PAX",
     "QI",
     "REP",
     "SRM",
+    "VGX",
     "VIA",
     "WAVES",
     "YFII",
