@@ -598,7 +598,6 @@ def filter_ssl(coins_config):
                     # For web, we only want SSL.
                     if i["protocol"] == "SSL":
                         electrums.append(i)
-            coins_config_ssl[coin]["electrum"]
             if len(coins_config_ssl[coin]["electrum"]) == 0:
                 del coins_config_ssl[coin]
 
