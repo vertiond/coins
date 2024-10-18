@@ -447,7 +447,8 @@ class CoinConfig:
                                         e["url"] = k
                                         del e["ws_url"]
                                         valid_electrums.append(e)
-
+                if len(valid_electrums) > 0:
+                    valid_electrums = sort_dicts_list(valid_electrums, "url")                    
                 self.data[self.ticker].update({"electrum": valid_electrums})
 
     def get_bchd_urls(self):
@@ -484,7 +485,9 @@ class CoinConfig:
                     key = "rpc_urls"
                 else:
                     key = "nodes"
-                self.data[self.ticker].update({key: contract_data["rpc_nodes"]})
+                    
+                values = sort_dicts_list(contract_data["rpc_nodes"], "url")       
+                self.data[self.ticker].update({key: values})
 
     def get_explorers(self):
         explorers = None
@@ -595,7 +598,7 @@ def filter_ssl(coins_config):
                     # For web, we only want SSL.
                     if i["protocol"] == "SSL":
                         electrums.append(i)
-            coins_config_ssl[coin]["electrum"] = electrums[:3]
+            coins_config_ssl[coin]["electrum"]
             if len(coins_config_ssl[coin]["electrum"]) == 0:
                 del coins_config_ssl[coin]
 
@@ -635,7 +638,7 @@ def filter_tcp(coins_config, coins_config_ssl):
         if "nodes" in coins_config[coin]:
             coins_config_tcp[coin]["nodes"] = [
                 i for i in coins_config[coin]["nodes"] if "gui_auth" not in i
-            ][:3]
+            ]
         if "electrum" in coins_config[coin]:
             electrums = []
             # Prefer SSL
@@ -654,7 +657,7 @@ def filter_tcp(coins_config, coins_config_ssl):
                     else:
                         electrums.append(i)
 
-            coins_config_tcp[coin]["electrum"] = electrums[:3]
+            coins_config_tcp[coin]["electrum"] = electrums
             if len(coins_config_tcp[coin]["electrum"]) == 0:
                 del coins_config_tcp[coin]
 
@@ -666,7 +669,6 @@ def filter_tcp(coins_config, coins_config_ssl):
 def filter_wss(coins_config):
     coins_config_wss = {}
     for coin in coins_config:
-        coins_config_wss.update({coin: coins_config[coin]})
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
@@ -675,9 +677,9 @@ def filter_wss(coins_config):
                         electrums.append(i)
                 else:
                     print(i)
-            coins_config_wss[coin]["electrum"] = electrums[:3]
-            if len(coins_config_wss[coin]["electrum"]) == 0:
-                del coins_config_wss[coin]
+            if len(electrums) > 0:
+                coins_config_wss.update({coin: coins_config[coin]})
+                coins_config_wss[coin]["electrum"] = electrums
 
     with open(f"{script_path}/coins_config_wss.json", "w+") as f:
         json.dump(coins_config_wss, f, indent=4)
@@ -720,6 +722,14 @@ def generate_binance_api_ids(coins_config):
     # to get the base and quote id for a pair then concatentate them with no separator
     # Example candlestick url: https://api.binance.com/api/v3/klines?symbol=BNBBTC&interval=1d&limit=1000
     # Valid interval values are listed at https://binance-docs.github.io/apidocs/spot/en/#public-api-definitions
+
+
+def sort_dict(d):
+    return {k: d[k] for k in sorted(d)}
+
+def sort_dicts_list(data, sort_key):
+    return sorted(data, key=lambda x: x[sort_key])
+
 
 
 if __name__ == "__main__":
