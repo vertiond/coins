@@ -16670,7 +16670,7 @@
             "chain_id": "nucleus-3"
         }
     },
-    "derivation_path": "m/44'/1'"
+    "derivation_path": "m/44'/118'"
   },
   {
     "coin":"IRISTEST-IBC_NUCLEUSTEST",
@@ -16688,7 +16688,7 @@
             "denom": "ibc/F7F28FF3C09024A0225EDBBDB207E5872D2B4EF2FB874FE47B05EF9C9A7D211C"
         }
     },
-    "derivation_path": "m/44'/1'"
+    "derivation_path": "m/44'/118'"
   },
   {
     "coin":"ATOM-IBC_NUCLEUSTEST",
@@ -16706,7 +16706,7 @@
             "denom": "ibc/9117A26BA81E29FA4F78F57DC2BD90CD3D26848101BA880445F119B22A1E254E"
         }
     },
-    "derivation_path": "m/44'/1'"
+    "derivation_path": "m/44'/118'"
   },
   {
     "coin":"OSMO-IBC_NUCLEUSTEST",
@@ -16724,7 +16724,7 @@
             "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23"
         }
     },
-    "derivation_path": "m/44'/1'"
+    "derivation_path": "m/44'/118'"
   },
   {
     "coin": "LUPA",
