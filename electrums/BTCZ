@@ -16,5 +16,13 @@
             }
         ],
         "ws_url": "electrum1.btcz.rocks:50004"
+    },
+    {
+        "url": "electrum3.btcz.rocks:50001",
+        "contact": [
+            {
+                "discord": "426842722436120577"
+            }
+        ]
     }
 ]
