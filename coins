@@ -10429,7 +10429,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
+        "contract_address": "0x1D1498166DDCEeE616a6d99868e1E0677300056f"
       }
     },
     "derivation_path": "m/44'/966'"
