@@ -11949,7 +11949,15 @@
         "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
       }
     },
-    "derivation_path": "m/44'/966'"
+    "derivation_path": "m/44'/60'",
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 85000,
+        "erc20_sender_refund": 85000
+    }
   },
   {
     "coin": "SPACE-PLG20",
