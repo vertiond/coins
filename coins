@@ -10416,6 +10416,25 @@
     "derivation_path": "m/44'/1007'"
   },
   {
+    "coin": "SPACE-PLG20_OLD",
+    "name": "space_plg20_old",
+    "fname": "Space Token (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
+      }
+    },
+    "derivation_path": "m/44'/966'"
+  },
+  {
     "coin": "SPACE-PLG20",
     "name": "space_plg20",
     "fname": "Space Token",
