@@ -5,6 +5,7 @@ import json
 from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
+from ensure_chainids import ensure_chainids
 
 
 current_time = time.time()
@@ -13,15 +14,26 @@ repo_path = script_path.replace("/utils", "")
 os.chdir(script_path)
 
 BINANCE_DELISTED_COINS = [
+    "AGIX",
+    "ANT",
+    "BIDR",
     "GRS",
     "NAV",
     "BTT",
     "BUSD",
+    "LOOM",
     "MC",
     "MIR",
+    "OCEAN",
+    "OMG",
     "PAX",
+    "QI",
+    "REP",
     "SRM",
-    "VIA" "YFII",
+    "VGX",
+    "VIA",
+    "WAVES",
+    "YFII",
 ]
 
 # TODO: Check all coins have an icon.
@@ -40,6 +52,11 @@ electrum_coins = [
     for f in os.listdir(f"{repo_path}/electrums")
     if os.path.isfile(f"{repo_path}/electrums/{f}")
 ]
+tendermint_coins = [
+    f
+    for f in os.listdir(f"{repo_path}/tendermint")
+    if os.path.isfile(f"{repo_path}/tendermint/{f}")
+]
 ethereum_coins = [
     f
     for f in os.listdir(f"{repo_path}/ethereum")
@@ -54,22 +71,16 @@ explorer_coins = [
 binance_quote_tickers = [
     "BTC",
     "ETH",
-    "BUSD",
     "BNB",
     "USDT",
     "USDC",
-    "BIDR",
+    "TUSD",
     "XRP",
-    "BKRW",
-    "DUSD",
-    "DOGE",
     "TRX",
     "TRY",
     "EUR",
     "BRL",
     "GBP",
-    "TUSD",
-    "PAX",
     "AUD",
     "RUB",
     "NGN",
@@ -77,28 +88,28 @@ binance_quote_tickers = [
 ]
 
 get_electrums_report()
-with open("electrum_scan_report.json", "r") as f:
+with open(f"{script_path}/electrum_scan_report.json", "r") as f:
     electrum_scan_report = json.load(f)
 
-with open("../explorers/explorer_paths.json", "r") as f:
+with open(f"{repo_path}/explorers/explorer_paths.json", "r") as f:
     explorer_paths = json.load(f)
 
-with open("../api_ids/forex_ids.json", "r") as f:
+with open(f"{repo_path}/api_ids/forex_ids.json", "r") as f:
     forex_ids = json.load(f)
 
-with open("../api_ids/livecoinwatch_ids.json", "r") as f:
+with open(f"{repo_path}/api_ids/livecoinwatch_ids.json", "r") as f:
     livecoinwatch_ids = json.load(f)
 
-with open("../api_ids/binance_ids.json", "r") as f:
+with open(f"{repo_path}/api_ids/binance_ids.json", "r") as f:
     binance_ids = json.load(f)
 
-with open("../api_ids/coingecko_ids.json", "r") as f:
+with open(f"{repo_path}/api_ids/coingecko_ids.json", "r") as f:
     coingecko_ids = json.load(f)
 
-with open("../api_ids/coinpaprika_ids.json", "r") as f:
+with open(f"{repo_path}/api_ids/coinpaprika_ids.json", "r") as f:
     coinpaprika_ids = json.load(f)
 
-with open("../slp/bchd_urls.json", "r") as f:
+with open(f"{repo_path}/slp/bchd_urls.json", "r") as f:
     bchd_urls = json.load(f)
 
 
@@ -152,7 +163,8 @@ class CoinConfig:
             "FTMT": "FTM-20",
             "tSLP": "SLPTOKEN",
             "tQTUM": "QRC-20",
-            "tIRIS": "TENDERMINT",
+            "IRISTEST": "TENDERMINT",
+            "NUCLEUSTEST": "TENDERMINT",
             "MATICTEST": "Matic",
             "UBQ": "Ubiq",
         }
@@ -193,7 +205,7 @@ class CoinConfig:
                 )
         elif self.coin_type in ["ZHTLC"]:
             if self.ticker in lightwallet_coins:
-                with open(f"../light_wallet_d/{self.ticker}", "r") as f:
+                with open(f"{repo_path}/light_wallet_d/{self.ticker}", "r") as f:
                     lightwallet_servers = json.load(f)
                 self.data[self.ticker].update(
                     {"light_wallet_d_servers": lightwallet_servers}
@@ -368,14 +380,13 @@ class CoinConfig:
             return token_type
 
         if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
-            if self.ticker.find("_ATOM") > -1:
-                return "ATOM"
-            elif self.ticker.find("_IRIS") > -1:
-                if self.data[self.ticker]["is_testnet"]:
-                    return "tIRIS"
-                return "IRIS"
-            elif self.ticker.find("_OSMO") > -1:
-                return "OSMO"
+            for i in ["IRISTEST", "NUCLEUSTEST"]:
+                if self.ticker.find(i) > -1:
+                    self.is_testnet = True
+                    return i
+            for i in ["IBC_IRIS", "IBC_ATOM", "IBC_OSMO"]:
+                if self.ticker.find(i) > -1:
+                    return i.replace("IBC_", "")
 
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:
@@ -412,7 +423,7 @@ class CoinConfig:
                 coin = "QTUM"
 
         if coin in electrum_scan_report:
-            with open(f"../electrums/{coin}", "r") as f:
+            with open(f"{repo_path}/electrums/{coin}", "r") as f:
                 electrums = json.load(f)
                 valid_electrums = []
                 for x in ["tcp", "ssl", "wss"]:
@@ -444,16 +455,19 @@ class CoinConfig:
             self.data[self.ticker].update({"bchd_urls": bchd_urls[self.ticker]})
 
     def get_swap_contracts(self):
-        # TODO: update swap contracts to post-IRIS once Artem greenlights.
         contract_data = None
 
         if self.ticker in ethereum_coins:
-            with open(f"../ethereum/{self.ticker}", "r") as f:
+            with open(f"{repo_path}/ethereum/{self.ticker}", "r") as f:
+                contract_data = json.load(f)
+
+        elif self.data[self.ticker]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]:
+            with open(f"{repo_path}/tendermint/{self.parent_coin}", "r") as f:
                 contract_data = json.load(f)
 
         elif self.ticker not in electrum_coins:
             if self.parent_coin not in ["SLP", "tSLP", None]:
-                with open(f"../ethereum/{self.parent_coin}", "r") as f:
+                with open(f"{repo_path}/ethereum/{self.parent_coin}", "r") as f:
                     contract_data = json.load(f)
 
         if contract_data:
@@ -476,11 +490,11 @@ class CoinConfig:
         explorers = None
         coin = self.ticker.replace("-segwit", "")
         if coin in explorer_coins:
-            with open(f"../explorers/{coin}", "r") as f:
+            with open(f"{repo_path}/explorers/{coin}", "r") as f:
                 explorers = json.load(f)
 
         elif self.parent_coin in explorer_coins:
-            with open(f"../explorers/{self.parent_coin}", "r") as f:
+            with open(f"{repo_path}/explorers/{self.parent_coin}", "r") as f:
                 explorers = json.load(f)
 
         if explorers:
@@ -503,7 +517,7 @@ class CoinConfig:
 def parse_coins_repo():
     errors = []
     coins_config = {}
-    with open("../coins", "r") as f:
+    with open(f"{repo_path}/coins", "r") as f:
         coins_data = json.load(f)
 
     for item in coins_data:
@@ -555,8 +569,6 @@ def parse_coins_repo():
         print(f"Errors:")
         for error in errors:
             print(error)
-    for coin in nodata:
-        del coins_config[coin]
     return coins_config, nodata
 
 
@@ -568,7 +580,7 @@ def get_desktop_repo_coins_data():
     for f in contents:
         if f.endswith("coins.json"):
             coins_fn = f
-    with open(f"../../atomicDEX-Desktop/assets/config/{coins_fn}", "r") as f:
+    with open(f"{repo_path}/atomicDEX-Desktop/assets/config/{coins_fn}", "r") as f:
         return json.load(f)
 
 
@@ -599,7 +611,7 @@ def filter_ssl(coins_config):
                 if i.startswith("https")
             ]
 
-    with open("coins_config_ssl.json", "w+") as f:
+    with open(f"{script_path}/coins_config_ssl.json", "w+") as f:
         json.dump(coins_config_ssl, f, indent=4)
     return coins_config_ssl
 
@@ -646,7 +658,7 @@ def filter_tcp(coins_config, coins_config_ssl):
             if len(coins_config_tcp[coin]["electrum"]) == 0:
                 del coins_config_tcp[coin]
 
-    with open("coins_config_tcp.json", "w+") as f:
+    with open(f"{script_path}/coins_config_tcp.json", "w+") as f:
         json.dump(coins_config_tcp, f, indent=4)
     return coins_config_tcp
 
@@ -667,14 +679,14 @@ def filter_wss(coins_config):
             if len(coins_config_wss[coin]["electrum"]) == 0:
                 del coins_config_wss[coin]
 
-    with open("coins_config_wss.json", "w+") as f:
+    with open(f"{script_path}/coins_config_wss.json", "w+") as f:
         json.dump(coins_config_wss, f, indent=4)
     return coins_config_wss
 
 
 def generate_binance_api_ids(coins_config):
     mm2_coins = coins_config.keys()
-    r = requests.get("https://test.defi-stats.komodo.earth/api/v3/binance/ticker_price")
+    r = requests.get("https://defi-stats.komodo.earth/api/v3/binance/ticker_price")
     binance_tickers = r.json()
     pairs = []
     for ticker in binance_tickers:
@@ -701,7 +713,7 @@ def generate_binance_api_ids(coins_config):
             if ticker not in BINANCE_DELISTED_COINS:
                 api_ids.update({coin: ticker})
 
-    with open("../api_ids/binance_ids.json", "w") as f:
+    with open(f"{repo_path}/api_ids/binance_ids.json", "w") as f:
         json.dump(api_ids, f, indent=4)
 
     # To use for candlestick data, reference api_ids/binance_ids.json
@@ -711,10 +723,19 @@ def generate_binance_api_ids(coins_config):
 
 
 if __name__ == "__main__":
+    ensure_chainids()
     coins_config, nodata = parse_coins_repo()
-    with open("coins_config.json", "w+") as f:
+    # Includes failing servers
+    with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
     generate_binance_api_ids(coins_config)
+
+    # Remove failing servers
+    for coin in nodata:
+        del coins_config[coin]
+    with open(f"{script_path}/coins_config.json", "w+") as f:
+        json.dump(coins_config, f, indent=4)
+        
     coins_config_ssl = filter_ssl(deepcopy(coins_config))
     coins_config_wss = filter_wss(deepcopy(coins_config))
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
