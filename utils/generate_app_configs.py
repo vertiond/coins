@@ -6,6 +6,7 @@ from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
 from ensure_chainids import ensure_chainids
+from logger import logger
 
 
 current_time = time.time()
@@ -594,12 +595,14 @@ def filter_ssl(coins_config):
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
+                logger.loop("SSL", coin, i)
                 if "protocol" in i:
-                    # For web, we only want SSL.
                     if i["protocol"] == "SSL":
                         electrums.append(i)
             if len(coins_config_ssl[coin]["electrum"]) == 0:
                 del coins_config_ssl[coin]
+            else:
+                coins_config_ssl[coin]["electrum"] = electrums
 
         if "nodes" in coins_config[coin]:
             coins_config_ssl[coin]["nodes"] = [
@@ -652,13 +655,16 @@ def filter_tcp(coins_config, coins_config_ssl):
                     if "protocol" in i:
                         # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
                         if i["protocol"] != "WSS":
+                            logger.calc("TCP", coin, i)
                             electrums.append(i)
                     else:
                         electrums.append(i)
+                        logger.merge("TCP", coin, i)
 
-            coins_config_tcp[coin]["electrum"] = electrums
             if len(coins_config_tcp[coin]["electrum"]) == 0:
                 del coins_config_tcp[coin]
+            else:
+                coins_config_tcp[coin]["electrum"] = electrums
 
     with open(f"{script_path}/coins_config_tcp.json", "w+") as f:
         json.dump(coins_config_tcp, f, indent=4)
@@ -750,9 +756,9 @@ if __name__ == "__main__":
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
     for coin in coins_config:
         if (
-            coin in coins_config_ssl
+            coin in coins_config_tcp
             and coin in coins_config_ssl
-            and coin in coins_config_ssl
+            and coin in coins_config_wss
         ):
             color = "green"
         else:
