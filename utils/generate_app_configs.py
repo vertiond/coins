@@ -6,7 +6,6 @@ from copy import deepcopy
 import requests
 from scan_electrums import get_electrums_report
 from ensure_chainids import ensure_chainids
-from logger import logger
 
 
 current_time = time.time()
@@ -595,13 +594,13 @@ def filter_ssl(coins_config):
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
-                logger.loop("SSL", coin, i)
                 if "protocol" in i:
                     if i["protocol"] == "SSL":
                         electrums.append(i)
             if len(coins_config_ssl[coin]["electrum"]) == 0:
                 del coins_config_ssl[coin]
             else:
+                electrums = filter_duplicate_domains(electrums)
                 coins_config_ssl[coin]["electrum"] = electrums
 
         if "nodes" in coins_config[coin]:
@@ -632,6 +631,24 @@ def item_exists(i, electrums):
     return False
 
 
+def filter_duplicate_domains(electrums):
+    domains = {}
+    for i in electrums:
+        domain = i["url"].split(":")[0]
+        if domain not in domains:
+            domains.update({domain: {i['protocol']: i['url']}})
+        else:
+            domains[domain].update({i['protocol']: i['url']})
+    for i in domains:
+        if "SSL" in domains[i] and "TCP" in domains[i]:
+            for e in electrums:
+                if e["url"].startswith(i) and e["protocol"] == "TCP":
+                    electrums.remove(e)
+    return electrums
+    
+
+    
+
 def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
@@ -655,15 +672,14 @@ def filter_tcp(coins_config, coins_config_ssl):
                     if "protocol" in i:
                         # SSL is ok for legacy desktop so we allow them, else some coins with only SSL will be omited.
                         if i["protocol"] != "WSS":
-                            logger.calc("TCP", coin, i)
                             electrums.append(i)
                     else:
                         electrums.append(i)
-                        logger.merge("TCP", coin, i)
 
             if len(coins_config_tcp[coin]["electrum"]) == 0:
                 del coins_config_tcp[coin]
             else:
+                electrums = filter_duplicate_domains(electrums)
                 coins_config_tcp[coin]["electrum"] = electrums
 
     with open(f"{script_path}/coins_config_tcp.json", "w+") as f:
