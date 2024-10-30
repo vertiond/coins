@@ -8525,6 +8525,28 @@
     }
   },
   {
+    "coin": "LOLS-BEP20",
+    "name": "lols_bep20",
+    "fname": "LOLSmash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x19961cf3B822d37e16E310AB7C6C0277F95f31c3"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://lolsmash.net"
+    }
+  },
+  {
     "coin": "LOOP-BEP20",
     "name": "loop_bep20",
     "fname": "LoopNetwork",
@@ -10387,6 +10409,78 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "PEPE-ERC20",
+    "name": "pepe_erc20",
+    "fname": "Pepe",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.pepe.vip"
+    }
+  },
+  {
+    "coin": "PEPE-BEP20",
+    "name": "pepe_bep20",
+    "fname": "Pepe",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.pepe.vip"
+    }
+  },
+  {
+    "coin": "PEPE-ARB20",
+    "name": "pepe_arb20",
+    "fname": "Pepe",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.pepe.vip"
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 300000,
+        "erc20_receiver_spend": 250000,
+        "erc20_sender_refund": 250000
+    }
   },
   {
     "coin": "PINK",
