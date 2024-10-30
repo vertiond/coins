@@ -8525,6 +8525,28 @@
     }
   },
   {
+    "coin": "LOLS-BEP20",
+    "name": "lols_bep20",
+    "fname": "LOLSmash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x19961cf3B822d37e16E310AB7C6C0277F95f31c3"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://lolsmash.net"
+    }
+  },
+  {
     "coin": "LOOP-BEP20",
     "name": "loop_bep20",
     "fname": "LoopNetwork",
