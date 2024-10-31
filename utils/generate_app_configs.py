@@ -189,7 +189,7 @@ class CoinConfig:
                 }
             }
         )
-        if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM"]:
+        if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM", "SIA"]:
             try:
                 if self.coin_data["sign_message_prefix"]:
                     self.data[self.ticker].update(
@@ -212,6 +212,8 @@ class CoinConfig:
                 )
             else:
                 self.data[self.ticker].update({"light_wallet_d_servers": []})
+        elif self.coin_type in ["SIA"]:
+            self.data[self.ticker].update({"nodes": ["SIA"]})
 
     def get_protocol_info(self):
         if "protocol_data" in self.coin_data["protocol"]:
@@ -422,34 +424,38 @@ class CoinConfig:
             else:
                 coin = "QTUM"
 
-        if coin in electrum_scan_report:
+        if coin in electrum_coins:
             with open(f"{repo_path}/electrums/{coin}", "r") as f:
                 electrums = json.load(f)
-                valid_electrums = []
-                for x in ["tcp", "ssl", "wss"]:
-                    # This also filers ws with tcp/ssl server it is grouped with if valid.
-                    for k, v in electrum_scan_report[coin][x].items():
-                        if (
-                            current_time - v["last_connection"] < 604800
-                        ):  # 1 week grace period
-                            for electrum in electrums:
-                                electrum["protocol"] = x.upper()
-                                e = deepcopy(electrum)
-                                if "url" in e:
-                                    if e["url"] == k:
-                                        if "ws_url" in e:
-                                            del e["ws_url"]
-                                        valid_electrums.append(e)
-                                e = deepcopy(electrum)
-                                if "ws_url" in e:
-                                    e["protocol"] = "WSS"
-                                    if e["ws_url"] == k:
-                                        e["url"] = k
+                
+        if coin in electrum_scan_report:
+            valid_electrums = []
+            for x in ["tcp", "ssl", "wss"]:
+                # This also filers ws with tcp/ssl server it is grouped with if valid.
+                for k, v in electrum_scan_report[coin][x].items():
+                    if (
+                        current_time - v["last_connection"] < 604800
+                    ):  # 1 week grace period
+                        for electrum in electrums:
+                            electrum["protocol"] = x.upper()
+                            e = deepcopy(electrum)
+                            if "url" in e:
+                                if e["url"] == k:
+                                    if "ws_url" in e:
                                         del e["ws_url"]
-                                        valid_electrums.append(e)
-                if len(valid_electrums) > 0:
-                    valid_electrums = sort_dicts_list(valid_electrums, "url")                    
-                self.data[self.ticker].update({"electrum": valid_electrums})
+                                    valid_electrums.append(e)
+                            e = deepcopy(electrum)
+                            if "ws_url" in e:
+                                e["protocol"] = "WSS"
+                                if e["ws_url"] == k:
+                                    e["url"] = k
+                                    del e["ws_url"]
+                                    valid_electrums.append(e)
+            if len(valid_electrums) > 0:
+                valid_electrums = sort_dicts_list(valid_electrums, "url")                 
+            self.data[self.ticker].update({"electrum": valid_electrums})
+        elif self.coin_type in ["SIA"]:
+            self.data[self.ticker].update({"nodes": electrums})
 
     def get_bchd_urls(self):
         if self.ticker in bchd_urls:
