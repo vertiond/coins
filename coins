@@ -14187,24 +14187,6 @@
     }
   },
   {
-    "coin": "VRM",
-    "name": "verium",
-    "fname": "Verium Reserve",
-    "rpcport": 33987,
-    "pubtype": 70,
-    "p2shtype": 132,
-    "wiftype": 198,
-    "txfee": 100000,
-    "force_min_relay_fee": true,
-    "isPoS": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 240,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "VRSC",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "VRSC",
