@@ -4590,24 +4590,6 @@
     }
   },
   {
-    "coin": "DUST",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "DRAGONFAIRY",
-    "fname": "Dragonfairy",
-    "rpcport": 62842,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "requires_notarization": false,
-    "avg_blocktime": 30,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "ECA",
     "name": "electra",
     "fname": "Electra",
