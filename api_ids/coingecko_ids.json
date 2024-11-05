@@ -348,7 +348,6 @@
     "LINK-HRC20": "chainlink",
     "LINK-KRC20": "chainlink",
     "LINK-PLG20": "chainlink",
-    "LNC": "lightningcash-gold",
     "LOOP-BEP20": "loopnetwork",
     "LOOM-BEP20": "loom-network-new",
     "LOOM-ERC20": "loom-network-new",
