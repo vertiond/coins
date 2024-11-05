@@ -12503,23 +12503,6 @@
     }
   },
   {
-    "coin": "SCA",
-    "name": "scalaris",
-    "fname": "Scalaris",
-    "rpcport": 42510,
-    "txversion": 1,
-    "pubtype": 63,
-    "p2shtype": 23,
-    "wiftype": 154,
-    "txfee": 200000,
-    "required_confirmations": 3,
-    "avg_blocktime": 60,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "TAMA-ERC20",
     "name": "tama_erc20",
     "fname": "Tamadoge",
