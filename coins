@@ -4590,26 +4590,6 @@
     }
   },
   {
-    "coin": "ECA",
-    "name": "electra",
-    "fname": "Electra",
-    "rpcport": 5788,
-    "pubtype": 33,
-    "p2shtype": 40,
-    "wiftype": 161,
-    "txfee": 10000,
-    "dust": 5460,
-    "txversion": 7,
-    "mm2": 1,
-    "confpath": "USERHOME/.electra/Electra.conf",
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/249'"
-  },
-  {
     "coin": "EFL",
     "name": "egulden",
     "fname": "e-Gulden",
