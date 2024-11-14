@@ -4623,44 +4623,6 @@
     "derivation_path": "m/44'/7070'"
   },
   {
-    "coin": "DUST",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "DRAGONFAIRY",
-    "fname": "Dragonfairy",
-    "rpcport": 62842,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 3,
-    "requires_notarization": false,
-    "avg_blocktime": 30,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
-    "coin": "ECA",
-    "name": "electra",
-    "fname": "Electra",
-    "rpcport": 5788,
-    "pubtype": 33,
-    "p2shtype": 40,
-    "wiftype": 161,
-    "txfee": 10000,
-    "dust": 5460,
-    "txversion": 7,
-    "mm2": 1,
-    "confpath": "USERHOME/.electra/Electra.conf",
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/249'"
-  },
-  {
     "coin": "EFL",
     "name": "egulden",
     "fname": "e-Gulden",
@@ -8380,26 +8342,6 @@
     }
   },
   {
-    "coin": "LNC",
-    "name": "lightningcash",
-    "fname": "LightningCash",
-    "rpcport": 9110,
-    "pubtype": 28,
-    "p2shtype": 50,
-    "wiftype": 176,
-    "decimals": 8,
-    "signature_version": "base",
-    "txfee": 10000,
-    "segwit": true,
-    "bech32_hrp": "lnc",
-    "mm2": 1,
-    "required_confirmations": 6,
-    "avg_blocktime": 5,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "FRC",
     "name": "faircoin",
     "fname": "FairCoin",
@@ -9235,24 +9177,6 @@
     }
   },
   {
-    "coin": "MIL",
-    "name": "mil",
-    "fname": "Milevium",
-    "sign_message_prefix": "MIL Signed Message:\n",
-    "rpcport": 41889,
-    "pubtype": 50,
-    "p2shtype": 196,
-    "wiftype": 239,
-    "txfee": 100000,
-    "dust": 54600,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "MINU-BEP20",
     "name": "minu_bep20",
     "fname": "Minu",
@@ -10016,24 +9940,6 @@
       }
     },
     "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "NYAN",
-    "name": "nyancoin",
-    "fname": "Nyancoin",
-    "rpcport": 33700,
-    "pubtype": 45,
-    "p2shtype": 5,
-    "wiftype": 173,
-    "txfee": 100000,
-    "segwit": false,
-    "bech32_hrp": "ny",
-    "mm2": 1,
-    "required_confirmations": 10,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    }
   },
   {
     "coin": "NYC-BEP20",
@@ -12634,23 +12540,6 @@
     }
   },
   {
-    "coin": "SCA",
-    "name": "scalaris",
-    "fname": "Scalaris",
-    "rpcport": 42510,
-    "txversion": 1,
-    "pubtype": 63,
-    "p2shtype": 23,
-    "wiftype": 154,
-    "txfee": 200000,
-    "required_confirmations": 3,
-    "avg_blocktime": 60,
-    "mm2": 1,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "TAMA-ERC20",
     "name": "tama_erc20",
     "fname": "Tamadoge",
@@ -14279,24 +14168,6 @@
         "erc20_payment": 110000,
         "erc20_receiver_spend": 85000,
         "erc20_sender_refund": 85000
-    }
-  },
-  {
-    "coin": "VRM",
-    "name": "verium",
-    "fname": "Verium Reserve",
-    "rpcport": 33987,
-    "pubtype": 70,
-    "p2shtype": 132,
-    "wiftype": 198,
-    "txfee": 100000,
-    "force_min_relay_fee": true,
-    "isPoS": 1,
-    "mm2": 1,
-    "required_confirmations": 2,
-    "avg_blocktime": 240,
-    "protocol": {
-      "type": "UTXO"
     }
   },
   {
