@@ -7,7 +7,7 @@ import time
 import socket
 import threading
 import asyncio
-import websockets
+from websockets.asyncio.client import connect
 from logger import logger
 
 
@@ -110,7 +110,7 @@ class ElectrumServer:
 
         try:
             async def connect_and_query():
-                async with websockets.connect(f"wss://{self.url}:{self.port}", ssl=ssl_context, timeout=10) as websocket:
+                async with connect(f"wss://{self.url}:{self.port}", ssl=ssl_context, open_timeout=10, close_timeout=10, ping_timeout=10) as websocket:
                     # Handshake
                     payload = {"id": 0, "method": "server.version", "params": ["kmd_coins_repo", ["1.4", "1.6"]]}
                     await websocket.send(json.dumps(payload))
@@ -186,7 +186,7 @@ def get_from_electrum_wss(url, port, method, params=None):
 
     try:
         async def connect_and_query():
-            async with websockets.connect(f"wss://{url}:{port}", ssl=ssl_context, timeout=10) as websocket:
+            async with connect(f"wss://{url}:{port}", ssl=ssl_context, open_timeout=10, close_timeout=10, ping_timeout=10) as websocket:
                 payload = {"id": 0, "method": method}
                 if params:
                     payload.update({"params": params})
