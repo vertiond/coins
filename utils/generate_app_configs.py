@@ -763,7 +763,7 @@ def sort_dicts_list(data, sort_key):
 
 if __name__ == "__main__":
     skip_scan = False
-    if sys.argv > 1:
+    if len(sys.argv) > 1:
         if sys.argv[1] == "no-scan":
             skip_scan = True
     if skip_scan is False:
