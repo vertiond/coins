@@ -376,7 +376,7 @@ def scan_electrums(electrum_dict):
 
 
 def get_repo_electrums():
-    electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}")]
+    electrum_coins = [f for f in os.listdir(f"{repo_path}/electrums") if os.path.isfile(f"{repo_path}/electrums/{f}") and f not in ["TSIA"]]
     repo_electrums = {}
     for coin in electrum_coins:
         try:
@@ -429,8 +429,15 @@ def get_electrums_report():
         electrums_ssl_pct = round(len(electrums_ssl_set) / len(electrum_coins_ssl) * 100, 2)
         electrums_wss_pct = round(len(electrums_wss_set) / len(electrum_coins_wss) * 100, 2)
         logger.query(f"TCP scan progress: {electrums_pct}% electrums ({len(electrums_set)}/{len(electrum_coins)})")
+        if len(electrums_set) - len(electrum_coins) < 3:
+            logger.query(electrum_coins.difference(electrums_set))
         logger.query(f"SSL scan progress: {electrums_ssl_pct}% electrums_ssl ({len(electrums_ssl_set)}/{len(electrum_coins_ssl)})")
+        if len(electrums_ssl_set) - len(electrum_coins_ssl) < 3:
+            logger.query(electrum_coins_ssl.difference(electrums_ssl_set))
         logger.query(f"WSS scan progress: {electrums_wss_pct}% electrums_wss ({len(electrums_wss_set)}/{len(electrum_coins_wss)})")
+        if len(electrums_wss_set) - len(electrum_coins_wss) < 3:
+            logger.query(electrum_coins_wss.difference(electrums_wss_set))
+            
         if electrums_set == electrum_coins:
             if electrums_ssl_set == electrum_coins_ssl:
                 if electrums_wss_set == electrum_coins_wss:
