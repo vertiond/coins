@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import sys
 import time
 import json
 from copy import deepcopy
@@ -87,7 +88,8 @@ binance_quote_tickers = [
     "UAH",
 ]
 
-get_electrums_report()
+
+
 with open(f"{script_path}/electrum_scan_report.json", "r") as f:
     electrum_scan_report = json.load(f)
 
@@ -760,6 +762,12 @@ def sort_dicts_list(data, sort_key):
 
 
 if __name__ == "__main__":
+    skip_scan = False
+    if sys.argv > 1:
+        if sys.argv[1] == "no-scan":
+            skip_scan = True
+    if skip_scan is False:
+        get_electrums_report()
     ensure_chainids()
     coins_config, nodata = parse_coins_repo()
     # Includes failing servers

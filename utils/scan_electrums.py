@@ -223,9 +223,9 @@ class scan_thread(threading.Thread):
 
 
 def thread_electrum_wss(coin, url, port, method, params):
-    el = ElectrumServer(coin, url, port, "WSS")
-    resp = el.wss(method, params)
-    el = parse_response(el, resp)
+    x = ElectrumServer(coin, url, port, "WSS")
+    resp = x.wss(method, params)
+    el = parse_response(x, resp)
 
     if el.blockheight > 0:
         if coin not in passed_electrums_wss:
@@ -240,9 +240,9 @@ def thread_electrum_wss(coin, url, port, method, params):
 
 
 def thread_electrum(coin, url, port, method, params):
-    el = ElectrumServer(coin, url, port, "TCP")
-    resp = el.tcp(method, params)
-    el = parse_response(el, resp)
+    x = ElectrumServer(coin, url, port, "TCP")
+    resp = x.tcp(method, params)
+    el = parse_response(x, resp)
 
     if el.blockheight > 0:
         if coin not in passed_electrums:
@@ -257,9 +257,9 @@ def thread_electrum(coin, url, port, method, params):
 
 
 def thread_electrum_ssl(coin, url, port, method, params):
-    el = ElectrumServer(coin, url, port, "SSL")
-    resp = el.ssl(method, params)
-    el = parse_response(el, resp)
+    x = ElectrumServer(coin, url, port, "SSL")
+    resp = x.ssl(method, params)
+    el = parse_response(x, resp)
     
     if el.blockheight > 0:
         if coin not in passed_electrums_ssl:
@@ -276,8 +276,9 @@ def thread_electrum_ssl(coin, url, port, method, params):
 def parse_response(el_obj, resp):
     try:
         # Short form for known error responses
-        low_str = str(resp).lower() 
+        low_str = str(resp).lower()
         if low_str.find('timeout') > -1 or low_str.find('timed out') > -1:
+            logger.warning(low_str)
             el_obj.result = "Timed out"
         elif low_str.find('refused') > -1 or low_str.find('connect call failed') > -1:
             el_obj.result = "Connection refused"
