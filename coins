@@ -9949,7 +9949,7 @@
     "rpcport": 22555,
     "pubtype": 60,
     "p2shtype": 22,
-    "wiftype": 128,
+    "wiftype": 188,
     "segwit": false,
     "txfee": 100000000,
     "mm2": 1,
