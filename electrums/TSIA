@@ -1,5 +1,5 @@
 [
   {
-    "url": "https://api.siascan.com/anagami/wallet/"
+    "url": "https://sia-walletd.komodo.earth/api/"
   }
 ]

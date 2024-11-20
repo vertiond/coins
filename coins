@@ -1,5 +1,19 @@
 [
   {
+    "coin": "ANAGAMI",
+    "asset": "anagami",
+    "fname": "Anagami",
+    "rpcport": 59842,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 600,
+    "decimals": 24,
+    "derivation_path": "m/44'/1991'",
+    "protocol": {
+      "type": "SIA"
+    }
+  },
+  {
     "coin": "TSIA",
     "asset": "TSIA",
     "fname": "TSIA",
