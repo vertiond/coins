@@ -27,7 +27,7 @@
         },
         "nodes": [
             {
-                "url": "https://sia-walletd.komodo.earth/"
+                "url": "https://api.siascan.com/anagami/wallet/"
             }
         ],
         "explorer_block_url": "block/"
@@ -44461,21 +44461,6 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [
-            {
-                "url": "electrum1.grms.pw:17485",
-                "contact": [
-                    {
-                        "email": "contact@grms.pw"
-                    },
-                    {
-                        "discord": "miner113#7864"
-                    },
-                    {
-                        "github": "Miner113"
-                    }
-                ],
-                "protocol": "TCP"
-            },
             {
                 "url": "electrum1.grms.pw:50002",
                 "protocol": "SSL",
