@@ -1,6 +1,7 @@
 [
   {
     "coin": "ANAGAMI",
+    "fname": "Anagami Testnet",
     "mm2": 1,
     "required_confirmations": 1,
     "protocol": {
@@ -9,6 +10,7 @@
   },
   {
     "coin": "TSIA",
+    "fname": "Siacoin Testnet",
     "mm2": 1,
     "required_confirmations": 1,
     "protocol": {
@@ -9942,6 +9944,29 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "NYC",
+    "name": "newyorkcoin",
+    "fname": "NewYorkCoin",
+    "sign_message_prefix": "NewYorkCoin Signed Message:\n",
+    "rpcport": 22555,
+    "pubtype": 60,
+    "p2shtype": 22,
+    "wiftype": 188,
+    "segwit": false,
+    "txfee": 100000000,
+    "mm2": 1,
+    "required_confirmations": 7,
+    "avg_blocktime": 30,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/179'",
+    "links": {
+      "github": "https://github.com/NewYorkCoinNYC/newyorkcoin",
+      "homepage": "https://newyorkcoin.online"
+    }
   },
   {
     "coin": "NYC-BEP20",
