@@ -155,6 +155,11 @@
 		"explorer_block_url": "nucleus/blocks/"
 	},
 	"https://sia-walletd.komodo.earth/api/": {
-		"explorer_tx_url": "events/"
+		"explorer_address_url": "nucleus/accounts/",
+		"explorer_tx_url": "addresses/{ADDRESS}/events/"
+	},
+	"https://api.siascan.com/anagami/wallet/api/": {
+		"explorer_address_url": "nucleus/accounts/",
+		"explorer_tx_url": "addresses/{ADDRESS}/events/"
 	}
 }
