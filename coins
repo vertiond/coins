@@ -12022,6 +12022,33 @@
     "trezor_coin": "Komodo"
   },
   {
+    "coin": "SPACE-ARB20",
+    "name": "space_arb20",
+    "fname": "Space Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x1D1498166DDCEeE616a6d99868e1E0677300056f"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 400000,
+        "erc20_payment": 800000,
+        "erc20_receiver_spend": 700000,
+        "erc20_sender_refund": 700000
+    }
+  },
+  {
     "coin": "SPACE-AVX20",
     "name": "space_avx20",
     "fname": "Space Token",
