@@ -15756,7 +15756,7 @@
     }
   },
   {
-    "coin": "SEPOLIA-ETH",
+    "coin": "SEPOLIAETH",
     "name": "sepolia",
     "fname": "Sepolia",
     "rpcport": 80,
